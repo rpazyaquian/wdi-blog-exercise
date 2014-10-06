@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+}
+
+/** {
+  border: 1px solid blue;
+}*/
+
+nav > h1 {
+  display: inline-block;
+}
+
+nav > button {
+  float: right;
+}
+
+nav > ul {
+  display: none;
+}
+
+.article-title {
+  display: inline-block;
+  width: 23%;
+}
+
+#articles {
+  width: 960px;
+  box-sizing: border-box;
+}
+
+.tags {
+  width: 30%;
+  float: right;
+}
+
+section {
+  width: 60%;
+  float: left;
+  position: relative;
+}
+
+/*.article > article > p {
+  position: relative;
+  float: right;
+  display: inline;
+}*/
+
+p > img {
+  margin: 10px 10px;
+  padding: 0;
+  float: left;
+}
+
+.comments {
+  clear: both;
+}
+
+hr {
+  clear: both;
+}
